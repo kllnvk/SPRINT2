@@ -3,7 +3,8 @@
 }
 
 .imageAndText {
-
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .imageAndText img {
@@ -11,7 +12,7 @@
 }
 
 .text {
-
+    background-color: 0066CC;
 }
 
 .text:after {
