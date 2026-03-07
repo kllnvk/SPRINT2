@@ -25,9 +25,11 @@ textarea:focus {
 }
 
 .hw {
-
+    padding-bottom: 50px;
 }
 
 .hwTitle {
-
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
 }
