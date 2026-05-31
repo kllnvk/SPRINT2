@@ -2,22 +2,38 @@
 }
 
 .sidebar.open {
+    z-index: 9999;
 }
 
 .background {
 }
 
 .nav {
+    display: flex;
+    flex-direction: column;
 }
 
 .nav a {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
 }
 
 .nav a:hover {
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0059b2;
 }
 
 .nav a.active {
+    font-weight: 600;
+    font-size: 22px;
+    color: #58acff;
 }
+
 .close {
 }
 
